@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<!-- yeah claude made like all this i'm tired and i don't do webdev nor do i want to -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K5GFL Real Quotes Bro</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+            background-color: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .quote-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 300px;
+            height: 150px;
+            text-align: center;
+            padding: 20px;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        
+        .quote {
+            display: none;
+            opacity: 0;
+            animation: fadeIn 2s ease-in forwards;
+            width: 100%;
+        }
+        
+        .quote.active {
+            display: block;
+        }
+        
+        .quote-text {
+            font-size: 16px;
+            margin-bottom: 10px;
+            line-height: 1.4;
+        }
+        
+        .quote-author {
+            font-style: italic;
+            font-size: 14px;
+            margin-top: 5px;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <div class="quote-container">
+        <!-- Multiple quotes, one will be chosen at random when the page loads -->
+        <div class="quote">
+            <div class="quote-text">ogey</div>
+            <div class="quote-author">rrat</div>
+        </div>
+        
+        <div class="quote">
+            <div class="quote-text"><strong>FUN FACT:</strong> The callsign "<strong>N1KKE</strong>" is currently available.</div>
+        </div>
+        
+        <div class="quote">
+            <div class="quote-text"><strong>Getting jammed?</strong> Just say no. Your jammer legally cannot transmit over you without mutual consent.</div>
+        </div>
+        
+        <div class="quote">
+            <div class="quote-text">I don't know either.</div>
+        </div>
+        
+        <div class="quote">
+            <div class="quote-text">It's not 'stalking', it's a one-way QSL</div>
+        </div>
+
+        <div class="quote">
+            <div class="quote-text">Doxed Myself to Everybody Award</div>
+        </div>
+
+        <div class="quote">
+            <div class="quote-text"><strong>DID YOU KNOW?:</strong> JavaScript was created by Satan to trick web devs into thinking they were learning a logical and reasonable programming language.</div>
+        </div>
+
+        <div class="quote">
+            <div class="quote-text">:3</div>
+            <div class="quote-author">- Lenna</div>
+        </div>
+
+        <div class="quote">
+            <div class="quote-text">I don't have Ovaltine
+            Please stop telling me to drink it</div>
+        </div>
+
+        <div class="quote">
+            <div class="quote-text"><code>echo "${HAM_RADIO_QUOTE}"</code></div>
+        </div>
+
+        <div class="quote">
+            <div class="quote-text">Congratulations!</div>
+        </div>
+
+        <div class="quote">
+            <div class="quote-text">Oh yeah? My dad is the CEO of the ARRL and he'll ban your HAM account</div>
+        </div>
+
+        <div class="quote">
+            <div class="quote-text">The SSTVs of Oriental cartoons will continue until morale improves.</div>
+        </div>
+
+        <div class="quote">
+            <div class="quote-text">Anything is an antenna if you're brave enough</div>
+        </div>
+
+        <div class="quote">
+            <div class="quote-text">All your repeater are belong to us</div>
+        </div>
+
+        <div class="quote">
+            <div class="quote-text">The haters told me I'd blow out my finals and they were right. Shout out to the haters</div>
+        </div>
+
+        <div class="quote">
+            <div class="quote-text">Marconi's Home For Imaginary Telegraphs</div>
+        </div>
+
+        <div class="quote">
+            <div class="quote-text">FOXHUNT (The Man Who Sold The Yagi)</div>
+        </div>
+
+        <div class="quote">
+            <div class="quote-text">Nihahaha...?</div>
+        </div>
+
+        <div class="quote">
+            <div class="quote-text">We Didn't Start The Pileup</div>
+        </div>
+
+        <div class="quote">
+            <div class="quote-text"><strong><em>FCC WE HAVE A PROBLEM FCC WE HAVE A PROBLEM FCC WE HAVE A PROBLEM</em></strong></div>
+        </div>
+
+        <div class="quote">
+            <div class="quote-text">Geoffrey, can you make me a sandwich?</div>
+            <div class="quote-author">- NoOooOOOO</div>
+        </div>
+
+        <div class="quote">
+            <div class="quote-text"><strong>NOTICE:</strong> You just lost <a href="https://en.wikipedia.org/wiki/The_Game_(mind_game)">The Game</a>.</div>
+        </div>
+
+        <div class="quote">
+            <div class="quote-text">If you're not at risk of dying horribly, are you really engineering?</div>
+        </div>
+
+        <div class="quote">
+            <div class="quote-text"><em>cans.wav</em></div>
+        </div>
+
+        <div class="quote">
+            <div class="quote-text"><span style="color: #fbe287;">Bau</span><span style="color: #67b2ff;">bau</span><span style="color: #fbe287;">bau</span><span style="color: #67b2ff;">bau</span><span style="color: #fbe287;">bau</span><span style="color: #67b2ff;">bau</span>feng</div>
+        </div>
+
+        <div class="quote">
+            <div class="quote-text">"[47 CFR § 97.113(a)(4)], you have no signal"
+            "I'm incognito"</div>
+            <div class="quote-author">- 7200 kHz</div>
+        </div>
+
+        <div class="quote">
+            <div class="quote-text">"My strange behavior led to an outburst"</div>
+            <div class="quote-author">- The Pharcyde</div>
+        </div>
+
+        <div class="quote">
+            <div class="quote-text">The sign is a subtle joke</div>
+        </div>
+
+        <div class="quote">
+            <div class="quote-text">⦂▶</div>
+        </div>
+
+        <div class="quote">
+            <div class="quote-text">How many poor boomers have I inadvertently introduced to 2D at this point?</div>
+        </div>
+
+        <div class="quote">
+            <div class="quote-text">Head Coordinator of <em>"Dorks on the Air"</em></div>
+        </div>
+
+        <div class="quote">
+            <div class="quote-text"><strong>FACT:</strong> It's not a real weak signal mode if it doesn't take a day to complete a QSO.</div>
+        </div>
+
+        <div class="quote">
+            <div class="quote-text">[47 CFR § 97.113(a)(4)] it we ball
+            [47 CFR § 97.113(a)(4)] it we ball
+            [47 CFR § 97.113(a)(4)] it we ball</div>
+        </div>
+
+        <div class="quote">
+            <div class="quote-text">我成了廉价中国收音机的俘虏</div>
+        </div>
+
+        <div class="quote">
+            <div class="quote-text">No one in this hobby will understand even a quarter of the references in this quote box and that makes me sad</div>
+        </div>
+
+        <div class="quote">
+            <div class="quote-text">Women fear me
+            Stations fear me
+            Men turn their dials away from me as I push to talk
+            No transceivers dare send a signal in my presence
+            I am alone on this barren earth</div>
+        </div>
+
+        <div class="quote">
+            <div class="quote-text">末期オタク、進んで布教中</div>
+        </div>
+
+        <div class="quote">
+            <div class="quote-text">Ei!</div>
+            <div class="quote-author">- Ei!</div>
+        </div>
+
+        <div class="quote">
+            <div class="quote-text">Help I don't know how to turn on a radio please send Elmer's Glue</div>
+        </div>
+
+        <div class="quote">
+            <div class="quote-text">Pretending to know Python...</div>
+        </div>
+
+        <div class="quote">
+            <div class="quote-text">Can't wait for future me to die of cringe from this one</div>
+        </div>
+
+        <div class="quote">
+            <div class="quote-text">No refunds!</div>
+        </div>
+
+        <div class="quote">
+            <div class="quote-text">tbh i just used claude to generate the code for this quote box</div>
+        </div>
+
+        <div class="quote">
+            <div class="quote-text">Watch me do literally nothing on <a href="https://github.com/K5GFL">GitHub!</a></div>
+        </div>
+
+        <div class="quote">
+            <div class="quote-text">Have they made an "Amateur Radio Net" net yet?</div>
+        </div>
+
+        <div class="quote">
+            <div class="quote-text"><em><strong>YOU'RE SUPPOSED TO BE FILTERING THESE QUOTES, ENGINEER!</strong></em></div>
+        </div>
+
+        <div class="quote">
+            <div class="quote-text">The right mode in the wrong frequency makes all the difference in the world.
+            So wake up, Mr. Control Operator.
+            Wake up and smell the jamming...</div>
+        </div>
+
+        <div class="quote">
+            <div class="quote-text">The right mode in the wrong frequency makes all the difference in the world.
+            So wake up, Mr. Control Operator.
+            Wake up and smell the jamming...</div>
+        </div>
+
+        <div class="quote">
+            <div class="quote-text"><span style="color: #789922">>.-.. / . / .- / .-. / -. | -.-. / .-- | -... / -.-- | ... / --- / ..- / -. / -..
+            >.... / .- / ...- / . | ..--- | .-. / . / .- / -.. | .. / -</span></div>
+        </div>
+
+        <div class="quote">
+            <div class="quote-text">What're you gonna do, QRM me?</div>
+            <div class="quote-author">- Man Who Got QRMed</div>
+        </div>
+      
+    </div>
+
+    <script>
+        // Select all quotes
+        const quotes = document.querySelectorAll('.quote');
+        
+        // Choose a random quote to display
+        const randomIndex = Math.floor(Math.random() * quotes.length);
+        quotes[randomIndex].classList.add('active');
+    </script>
+</body>
+</html>
